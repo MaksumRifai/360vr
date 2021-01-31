@@ -1,6 +1,6 @@
 # Create Your Own Web Virtual Reality
 
-<a href="https://github.com/MaksumRifai/360vr/blob/master/preview-360-1.png"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/preview-360-1" width="600"></a>
+<a href="https://github.com/MaksumRifai/360vr/blob/master/preview-360-1.png"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/preview-360-1.png" width="600"></a>
 
 # Virtual Reality
 I used A-Frame, A-Frame Is A web framework for building virtual reality experiences, A-Frame handles the 3D and WebVR boilerplate required to get running across platforms including mobile, desktop, Vive, and Rift.
@@ -15,7 +15,7 @@ You can download and use 3D models or object from anywhere or create your own wi
 
 # Live and Preview
 ## Preview
-<a href="https://github.com/MaksumRifai/360vr/blob/master/preview-360-2"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/preview-360-2" width="300"></a>
+<a href="https://github.com/MaksumRifai/360vr/blob/master/preview-360-2"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/preview-360-2.png" width="300"></a>
 ## Live
 - https://maksumrifai.github.io/360vr/
 
