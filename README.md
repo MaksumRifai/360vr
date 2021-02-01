@@ -11,7 +11,7 @@ You can download and use 3D models or object from anywhere or create your own wi
 - [10 Menit Membuat Logo 3D (Digital Talent Scholarship)](https://www.youtube.com/watch?v=0GfNYFcDjMU&t=6s)
 - [Membuat rumah dengan MagicaVoxel](https://www.youtube.com/watch?v=nbfeWj46R3c)
 
-<a href="https://www.youtube.com/watch?v=0GfNYFcDjMU&t=6s"><img src="https://i3.ytimg.com/vi/0GfNYFcDjMU/hqdefault.jpg"></a>
+<a href="https://www.youtube.com/watch?v=0GfNYFcDjMU&t=6s"><img src="https://github.com/MaksumRifai/360vr/blob/master/ss-mv-360vr.jpg"></a>
 
 # Live and Preview
 ## Preview
@@ -33,7 +33,7 @@ In case you want to use your own models, simply replace the [.obj .mtl .png](htt
 
 For better and faster development you can use [Spck Code/Git Editor](http://play.google.com/store/apps/details?id=io.spck) for Android, I mainly use this Way.
 
-<a href="https://github.com/MaksumRifai/360vr/blob/master/360vr.gif"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr.gif" width="450"></a>
+<a href="https://github.com/MaksumRifai/360vr/blob/master/360vr.gif"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr.gif"></a>
 
 <br/><br/>
 # References & Resources
