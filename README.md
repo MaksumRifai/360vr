@@ -27,7 +27,7 @@ $ git clone https://github.com/MaksumRifai/360vr.git
 
 ```
 ## Download
-Use green button above and click "Download Zip" or simply click [here](https://github.com/MaksumRifai/digitaltalent/archive/master.zip)
+Use green button above and click "Download Zip" or simply click [here](https://github.com/MaksumRifai/360vr/archive/master.zip)
 ## Customizing
 In case you want to use your own models, simply replace the [.obj .mtl .png](https://en.m.wikipedia.org/wiki/Wavefront_.obj_file) files with yours. Don't forget to export your MagicaVoxel or Blender project with right format.
 
