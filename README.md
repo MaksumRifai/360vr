@@ -32,6 +32,49 @@ $ git clone https://github.com/MaksumRifai/360vr.git
 ## Download
 Use green button above and click "Download Zip" or simply click [here](https://github.com/MaksumRifai/360vr/archive/master.zip)
 ## Customizing
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maksum Rifai - 3D 360 Virtual Reality Bus</title>
+    <meta name="description" content="Panorama 360 Web VR - Maksum Rifai">
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <!--Aframe.js, not latest release, but latest compatible for Chrome Mobile Browser with minimal specs devices-->
+  </head>
+  <body>
+    <a-scene stats>
+      <!--Preparing assets Object 3D & 360 image-->
+      <a-assets>
+       <a-asset-item id="bus-obj" src="transjakarta.obj"></a-asset-item>
+       <a-asset-item id="bus-mtl" src="transjakarta.mtl"></a-asset-item>
+       <img id="image-360" src="360.jpg">
+      </a-assets>
+      <!--End of Preparing-->
+      
+      <!--Using Assets-->
+      <!--Bus 1-->
+      <a-entity rotation="0 204 0" scale="0.6 0.6 0.6" position="-2 0 -2" obj-model="obj: #bus-obj; mtl: #bus-mtl"></a-entity>
+      <!--Bus 2-->
+      <a-entity rotation="0 290 0" scale="0.6 0.6 0.6" position="10 0 1" obj-model="obj: #bus-obj; mtl: #bus-mtl"></a-entity>
+      <!--Bus 3-->
+      <a-entity rotation="0 110 0" scale="0.6 0.6 0.6" position="4.5 0 9" obj-model="obj: #bus-obj; mtl: #bus-mtl"></a-entity>
+      <!--360 Degree Image-->
+      <a-sky src="#image-360"></a-sky>
+      <!--End of Using-->
+      
+      <!--Draw a simple Line for label only-->
+      <a-entity line="start: -2 0 -2; end: 10 0 1; color: red"
+          line__2="start: 10 0 1; end: 4.5 0 9; color: green"
+          line__3="start: 4.5 0 9; end: -2 0 -2; color: blue"></a-entity>
+      <!--Red: Bus 1 to 2, Green: 2 to 3, Blue: Bus 3 to 1-->
+    </a-scene>
+  </body>
+</html>
+
+```
+
 In case you want to use your own models, simply replace the [.obj .mtl .png](https://en.m.wikipedia.org/wiki/Wavefront_.obj_file) files with yours. Don't forget to export your MagicaVoxel or Blender project properly.
 
 For better and faster development you can use [Spck Code/Git Editor](http://play.google.com/store/apps/details?id=io.spck) for Android, I mainly use this Way.
